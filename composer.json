@@ -1,0 +1,18 @@
+{
+    "name": "ngoma/api-consumer",
+    "autoload": {
+        "psr-4": {
+            "source\\": "src/",
+            "resources\\": "resources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngoma Fortuna",
+            "email": "ngomafortuna@gmail.com"
+        }
+    ],
+    "require": {
+        "ngomafortuna/route-system-simple": "^0.0.2"
+    }
+}

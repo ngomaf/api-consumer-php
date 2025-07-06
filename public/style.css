@@ -1,0 +1,104 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {width: 90%; margin: 20px auto; font-size: 14pt; line-height: 30px;}
+header {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+header ul {display: flex; flex-wrap: wrap; list-style: none; gap: 20;}
+header ul a {padding: 10px 20px;}
+main {margin: 30px 0;}
+footer {color: #666;}
+h1, h1, h3 {margin-bottom: 20px;}
+p, li {margin-bottom: 10px;}
+.danger {color: red;}
+h1.danger + p {color: #900;}
+
+a {
+    text-decoration: none;
+    color:#313fa5;
+}
+
+a:hover {
+    color:#303981;
+    text-decoration: underline;
+}
+
+.meta-data {
+    color: #989898;
+}
+
+
+/*     articles     */
+.articles article {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.articles article .oder-numb {
+    margin-right: 10px;
+    font: bold 18pt 'sedan';
+    color: #999;
+}
+
+.articles article h1 {
+    margin-bottom: 5px;
+}
+
+.articles article p {
+    margin-bottom: 5px;
+}
+
+/* form */
+form {
+    width: 100%;
+}
+
+form input {
+    font-size: 16pt;
+    width: 100%;
+    padding: 8px 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    font-size: 14pt;
+    padding: 16px 40px 18px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+form button[type=submit] {
+    background-color: #313fa5;
+    color: #fff;
+}
+
+form button[type=submit]:hover {
+    background-color: #303981;
+}
+
+
+
+@media(min-width: 800px) {
+    .users {
+        columns: 2;
+        vertical-align: top;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1350px) {
+    .users {
+        columns: 3;
+    }
+
+    form {
+        width: 800px;
+    }
+}

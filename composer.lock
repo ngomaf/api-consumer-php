@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a16f7a0386496fc9ae84e45b88ca7acc",
+    "packages": [
+        {
+            "name": "ngomafortuna/route-system-simple",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ngomaf/route-system-simple.git",
+                "reference": "48108b80d7c86cec61a90ea9d27fa5b449ac7bd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ngomaf/route-system-simple/zipball/48108b80d7c86cec61a90ea9d27fa5b449ac7bd8",
+                "reference": "48108b80d7c86cec61a90ea9d27fa5b449ac7bd8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "test/",
+                    "Ngomafortuna\\RouteSystemSimple\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ngoma M. Fortuna",
+                    "email": "ngomafortuna@gmail.com"
+                }
+            ],
+            "description": "Simple route management system (Sistema simples de gerenciamento de rotas)",
+            "support": {
+                "issues": "https://github.com/ngomaf/route-system-simple/issues",
+                "source": "https://github.com/ngomaf/route-system-simple/tree/v0.0.2"
+            },
+            "time": "2025-06-02T23:45:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
