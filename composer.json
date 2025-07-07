@@ -13,6 +13,7 @@
         }
     ],
     "require": {
-        "ngomafortuna/route-system-simple": "^0.0.2"
+        "ngomafortuna/route-system-simple": "^0.0.2",
+        "ngomafortuna/apireceiver": "^0.0.1"
     }
 }

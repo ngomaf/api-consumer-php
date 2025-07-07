@@ -15,6 +15,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/notice">Notícias</a></li>
                 <li><a href="/user">Utilizadores</a></li>
+                <li><a href="/peaple">Personagens</a></li>
                 <li><a href="/about">Sobre</a></li>
             </ul>
         </nav>

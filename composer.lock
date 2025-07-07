@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a16f7a0386496fc9ae84e45b88ca7acc",
+    "content-hash": "8b89d522d81792ea78b2412fa1dd975b",
     "packages": [
+        {
+            "name": "ngomafortuna/apireceiver",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ngomaf/apireceiver.git",
+                "reference": "97cdcbb4ae35a4055072cb15e6e23232e9489fbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ngomaf/apireceiver/zipball/97cdcbb4ae35a4055072cb15e6e23232e9489fbf",
+                "reference": "97cdcbb4ae35a4055072cb15e6e23232e9489fbf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ngomafortuna\\Apireceiver\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ngoma Fortuna",
+                    "email": "ngomafortuna@gmail.com"
+                }
+            ],
+            "description": "Professional API consumer/receiver (Consudor profissional de API)",
+            "support": {
+                "issues": "https://github.com/ngomaf/apireceiver/issues",
+                "source": "https://github.com/ngomaf/apireceiver/tree/v0.0.1"
+            },
+            "time": "2025-07-07T00:10:02+00:00"
+        },
         {
             "name": "ngomafortuna/route-system-simple",
             "version": "v0.0.2",
